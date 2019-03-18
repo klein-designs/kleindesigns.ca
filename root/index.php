@@ -10,8 +10,8 @@
         case "home":
             $contents = "../views/home.php";
             break;
-        case "projects":
-            $contents = "../views/projects.php";
+        case "portfolio":
+            $contents = "../views/portfolio.php";
             break;
         default:
             $contents =  "../views/home.php";
@@ -32,7 +32,8 @@
     <link rel="icon" href="img/favicon.ico" type="image/x-icon">
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="ionicons/css/ionicons.min.css" rel="stylesheet">
+    <link href="vendor/ionicons/css/ionicons.min.css" rel="stylesheet">
+    <link href="vendor/fontawesome/css/all.min.css" rel="stylesheet">
     <link href="css/animate.min.css" rel="stylesheet">
     <link href="css/aos.css" rel="stylesheet">
     <!-- main style -->
@@ -74,6 +75,53 @@
     
     <?php require_once($contents); ?>
     
+    <!-- contact -->
+    <div class="section" id="contact">
+        <div class="container">
+            <div class="col-md-12">
+                <h4>Contact</h4>
+                <h2 class="size-50">Ready to Connect?</h2>
+                <div class="h-50"></div>
+            </div>
+            <div class="col-md-4" data-aos="fade-up">
+
+                <h3>Phone Number</h3>
+                <p>+20 5555 569 42</p>
+                <h3> Mobile Numberr</h3>
+                <p>+20 5555 569 42</p>
+                <h3>Email</h3>
+                <p>mail@info.me </p>
+
+                <h3>Social Network</h3>
+
+                <ul class="social">
+                    <li><a href="#"><i class="ion-social-facebook"></i></a></li>
+                    <li><a href="#"><i class="ion-social-twitter"></i></a></li>
+                    <li><a href="#"><i class="ion-social-instagram"></i></a></li>
+                    <li><a href="#"><i class="ion-social-dribbble"></i></a></li>
+                </ul>
+                <div class="clearfix"></div>
+                <div class="h-50"></div>
+            </div>
+            <div class="col-md-8" data-aos="fade-up">
+                <form class="contact-bg" id="contact-form" name="contact" method="post" novalidate="novalidate">
+                    <input type="text" name="name" class="form-control" placeholder="Your Name" />
+                    <input type="email" name="email" class="form-control" placeholder="Your E-mail" />
+                    <input type="text" name="phone" class="form-control" placeholder="Phone Number" />
+                    <textarea name="message" class="form-control" placeholder="Your Message" style="height:120px"></textarea>
+                    <button id="submit" type="submit" name="submit" class="btn btn-primary btn-full-width">Send</button>
+                    <div id="success">
+                        <p class="green textcenter"> Your message was sent successfully! I will be in touch as soon as I can. </p>
+                    </div>
+                    <div id="error">
+                        <p> Something went wrong, try refreshing and submitting the form again. </p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- ./contact -->
+
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
     <!--  plugins  -->
