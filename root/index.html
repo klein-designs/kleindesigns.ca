@@ -8,11 +8,12 @@
     <meta name="keywords" content="Kitchener, Waterloo, Ontario, Web Design, Website Application Development, Content Management System, Cambridge, Guelph, Hosting, Graphic Design">
     <meta name="description" content="Klein Designs offers professional web design, graphic design, and web development in the Kitchener, Waterloo, Guelph & Cambridge area.">
     <meta name="Author" content="Klein Designs">
-    <title>Klein Designs | Web Design and Development Kitchener Waterloo Guelph Cambridge</title>
-    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+    <title>Klein Designs | Web Design &amp; Development Kitchener Waterloo Guelph Cambridge</title>
+    <link rel="icon" href="img/logo.png" type="image/x-icon">
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="ionicons/css/ionicons.min.css" rel="stylesheet">
+    <link href="vendor/ionicons/css/ionicons.min.css" rel="stylesheet">
+    <link href="vendor/fontawesome/css/all.css" rel="stylesheet">
     <link href="css/animate.min.css" rel="stylesheet">
     <link href="css/aos.css" rel="stylesheet">
     <!-- main style -->
@@ -24,6 +25,9 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
     <link href="https://fonts.googleapis.com/css?family=Alex+Brush" rel="stylesheet"> 
+    
+<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+
 </head>
 
 <body>
@@ -68,16 +72,81 @@
     <!-- ./home -->
     
     <!-- about -->
-    <div class="section" id="about">
+    <div class="section section-padding">
         <div class="container">
             <div class="col-md-6" data-aos="fade-up">
-                <h4>01</h4>
-                <h2 class="size-50">Know <br /> About me</h2>
+                <h4>Mission</h4>
+                <h2 class="size-50">Beautiful <br /> Web Design</h2>
                 <div class="h-50"></div>
-                <p>Appropriately maintain standards compliant total linkage with cutting-edge action items. Enthusiastically create seamless synergy rather than excellent value. Quickly promote premium strategic theme areas vis-a-vis.</p>
-                <p>Appropriately maintain standards compliant total linkage with cutting-edge action items. Enthusiastically create seamless synergy rather than excellent value.</p>
-                <div class="h-50"></div> <img src="img/Signature.svg" width="230" alt="" />
+                <p>
+                    Klein Designs offers custom web design, web development, and graphic design services in the Kitchener-Waterloo area. Our professionally designed websites 
+                    are <span class="text-primary">simple, modern, and responsive</span>. 
+                </p>
+                <p>
+                    Whether you're launching your first website or touching up an existing one, we'll collaborate with you to create an elegant
+                    and effective solution. 
+                </p>
                 <div class="h-50"></div>
+                <a class="btn btn-primary" href="/index.php?page=portfolio">View Portfolio</a>
+            </div>
+            <div class="col-md-6">
+                <img src="img/our_mission.png"  id="our-mission" class="img-responsive section-img" alt="" align="right" data-aos="fade-right" data-aos-delay="0" />
+            </div>
+        </div>
+    </div>
+    <!-- ./about -->
+
+    <!-- services -->
+    <div class="section section-dark section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="section-center col-md-4">
+                    <i class="services-icon fas fa-laptop-code"></i>
+                    <h3 class="services-title">Web Development</h3>
+                </div>
+                <div class="section-center col-md-4">
+                    <i class="services-icon fas fa-globe"></i>
+                    <h3 class="services-title">Website Hosting</h3>
+                </div>
+                <div class="section-center col-md-4">
+                    <i class="services-icon fab fa-wordpress-simple"></i>
+                    <h3 class="services-title">WordPress Services</h3>
+                </div>
+            </div>
+            <div class="row services-row">
+                <div class="section-center col-md-4">
+                    <i class="services-icon fas fa-mail-bulk"></i>
+                    <h3 class="services-title">Marketing Material</h3>
+                </div>
+                <div class="section-center col-md-4">
+                    <i class="services-icon fas fa-copyright"></i>
+                    <h3 class="services-title">Logo Design</h3>
+                </div>
+                <div class="section-center col-md-4">
+                    <a class="btn btn-primary" href="/index.php?page=services">View All Services</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ./services -->
+    
+    <!-- about -->
+    <div class="section section-padding">
+        <div class="container">
+            <div class="col-md-6" data-aos="fade-up">
+                <h4>About</h4>
+                <h2 class="size-50">Behind <br /> the Design</h2>
+                <div class="h-50"></div>
+                <p>
+                    Sarah has a passion for graphic design, web design, and working
+                    closely with customers to bring their ideas to life. She is a recent grauduate from Wilfrid Laurier's Computer Science program and has
+                    developed her web development skills while working at Shopify in Waterloo. 
+                </p>
+                <p>
+                    Get in touch with Sarah to start putting your website ideas in motion. 
+                </p>
+                <div class="h-50"></div>
+                <a class="btn btn-primary" href="/portfolio">Contact Sarah</a>
             </div>
             <div class="col-md-6 about-img-div">
                 <div class="about-border" data-aos="fade-up" data-aos-delay=".5"></div>
@@ -314,7 +383,7 @@
                     <input type="email" name="email" class="form-control" placeholder="Your E-mail" />
                     <input type="text" name="phone" class="form-control" placeholder="Phone Number" />
                     <textarea name="message" class="form-control" placeholder="Your Message" style="height:120px"></textarea>
-                    <button id="submit" type="submit" name="submit" class="btn btn-glance">Send</button>
+                    <button id="submit" type="submit" name="submit" class="btn btn-primary btn-full-width">Send</button>
                     <div id="success">
                         <p class="green textcenter"> Your message was sent successfully! I will be in touch as soon as I can. </p>
                     </div>
