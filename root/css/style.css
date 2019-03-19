@@ -333,18 +333,53 @@ a.active {
 /* Images
 ==================================================*/
 
-#our-mission {
-    padding-top: 100px;
-    float: right;
+.section-image {
     width: 450px;
 }
 
-#services {
-
+.section-image-margin {
+    margin-top: 100px;
 }
+
+.section-image-right {
+    float: right;
+}
+
+.image-decorative-border {
+    position: absolute;
+    border: 10px solid #79A095;
+    width: 400px;
+    height: 400px;
+    top: 75px;
+    left: 50px;
+    z-index: 1
+}
+
 
 /* Icons
 ==================================================*/
+
+.icon-palette h3 {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 32px;
+    font-size: 20px;
+}
+
+.icon-palette i {
+    color: #79A095;
+    font-size: 72px;
+    margin: 0px auto;
+}
+
+.icon-palette {
+    text-align: center;
+}
+
+
+.icon-palette-row:not(:first-child) {
+    margin-top: 100px;
+}
 
 
 /* home section
@@ -379,41 +414,6 @@ a.active {
 
 /* services section
 ==================================================*/
-
-.services-title {
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    font-weight: bold;
-    margin-top: 32px;
-    font-size: 20px;
-}
-
-.services-icon {
-    color: #79A095;
-    font-size: 72px;
-    margin: 0px auto;
-}
-
-.services-row {
-    margin-top: 100px;
-}
-
-/* about section
-==================================================*/
-
-.about-img-div img {
-    margin: 0 auto;
-}
-
-.about-border {
-    position: absolute;
-    border: 10px solid #79A095;
-    width: 400px;
-    height: 400px;
-    top: 40px;
-    left: 50px;
-    z-index: 1
-}
 
 
 /* experience section
@@ -849,6 +849,26 @@ fieldset {
     .portfolio .categories-grid .categories ul li a {
         padding: 0 2px;
     }
+    .section-image, .accent-image {
+        float: unset;
+        display: block;
+        margin: 100px auto 0px;
+    }
+    .section .container {
+        text-align: center;
+    }
+    .image-decorative-border {
+        display: none;
+    }
+    .icon-palette {
+        margin-bottom: 72px;
+    }
+    .icon-palette-row-margin {
+        margin-top: 0px;
+    }
+    .social {
+        display: inline-flex;
+    }
 }
 
 @media (max-width: 768px) {
@@ -870,12 +890,15 @@ fieldset {
     .disply-table {
         height: 600px;
     }
-    .about-border {
+    .image-decorative-border {
         width: 265px;
     }
     .portfolio .categories-grid .categories ul li {
         list-style: none;
         margin: 10px 0;
+    }
+    .section-image {
+        width: 300px;
     }
 }
 

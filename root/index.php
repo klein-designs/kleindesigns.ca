@@ -45,6 +45,7 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
     <link href="https://fonts.googleapis.com/css?family=Alex+Brush" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet"> 
 </head>
 
 <body>
@@ -79,18 +80,17 @@
     <div class="section" id="contact">
         <div class="container">
             <div class="col-md-12">
-                <h4>Contact</h4>
-                <h2 class="size-50">Ready to Connect?</h2>
+                <h2 class="size-50">Contact</h2>
                 <div class="h-50"></div>
             </div>
             <div class="col-md-4" data-aos="fade-up">
 
-                <h3>Phone Number</h3>
-                <p>+20 5555 569 42</p>
-                <h3> Mobile Numberr</h3>
-                <p>+20 5555 569 42</p>
+                <h3>Location</h3>
+                <p>Waterloo, Ontario</p>
+                <h3>Mobile Number</h3>
+                <p>705 934 4809</p>
                 <h3>Email</h3>
-                <p>mail@info.me </p>
+                <p>sarah@kleindesigns.ca</p>
 
                 <h3>Social Network</h3>
 
