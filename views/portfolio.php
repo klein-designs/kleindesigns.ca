@@ -1,24 +1,23 @@
-<!-- home -->
-<div class="section" id="home" data-stellar-background-ratio="0.5">
+<!-- cover -->
+<div class="section page-cover" data-stellar-background-ratio="0.5">
     <div class="container">
-        <div class="disply-table">
+        <div class="page-cover-table">
             <div class="table-cell" data-aos="fade-up" data-aos-delay="0">
                 <!-- <h4>Waterlo, Kitchener, Cambridge, Guelph</h4> -->
-                <h1><span class="decorative-font">Klein Designs</span>
+                <h1><span class="decorative-font">Portfolio</span>
                 <br /> 
-                <span class="home-text">Web Design & Graphic Design</span></h1> 
+                <span class="page-cover-text">Our Past Successes</span></h1> 
             </div>
         </div>
     </div>
 </div>
-<!-- ./home -->
+<!-- ./cover -->
 
 <!-- projects -->
 <div class="section" id="projects">
     <div class="container">
         <div class="col-md-12">
-            <h4>03</h4>
-            <h2 class="size-50">My <br /> Projects</h2> 
+            <h2 class="size-50">Our <br /> Projects</h2> 
         </div>
         <!-- main container -->
         <div class="main-container portfolio-inner clearfix">

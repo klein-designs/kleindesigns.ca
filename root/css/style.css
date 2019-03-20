@@ -334,7 +334,7 @@ a.active {
 ==================================================*/
 
 .section-image {
-    width: 450px;
+    max-width: 450px;
 }
 
 .section-image-margin {
@@ -343,6 +343,10 @@ a.active {
 
 .section-image-right {
     float: right;
+}
+
+.section-image-left {
+    float: left;
 }
 
 .image-decorative-border {
@@ -385,7 +389,7 @@ a.active {
 /* home section
 ==================================================*/
 
-.home-text {
+.page-cover-text {
     font-size: 24px;
     font-weight: bold;
     text-transform: uppercase;
@@ -395,9 +399,13 @@ a.active {
     color: #79A095;
 }
 
-#home {
+.page-cover {
     background: url(../img/home.jpg);
     background-size: cover;
+    height: 60vh;
+}
+
+.page-cover-master {
     height: 100vh;
 }
 
@@ -406,15 +414,43 @@ a.active {
     vertical-align: middle;
 }
 
-.disply-table {
+.page-cover-table {
     display: table;
+    height: 60vh;
+}
+
+.page-cover-master .page-cover-table {
     height: 100vh;
 }
 
 
-/* services section
+/* pricing
 ==================================================*/
+.pricing {
+    text-align: center;
+    height: 100%;
+    margin-top: 300px;
+    font-size: 30px;
+}
 
+.pricing-wrapper {
+    position: relative;
+}
+
+.pricing .currency {
+    font-size: 24px;
+    vertical-align: top;
+}
+
+.pricing .price {
+    color: #79A095;
+    font-weight: bold;
+    font-size: 60px;
+}
+
+.pricing .rate {
+    font-size: 24px;
+}
 
 /* experience section
 ==================================================*/
@@ -863,7 +899,7 @@ fieldset {
     .icon-palette {
         margin-bottom: 72px;
     }
-    .icon-palette-row-margin {
+    .icon-palette-row {
         margin-top: 0px;
     }
     .social {
@@ -883,11 +919,11 @@ fieldset {
         font-size: 55px;
         line-height: 30px;
     }
-    .home-text {
+    .page-cover-text {
         font-size: 14px;
     }
-    #home,
-    .disply-table {
+    .page-cover,
+    .page-cover-table {
         height: 600px;
     }
     .image-decorative-border {

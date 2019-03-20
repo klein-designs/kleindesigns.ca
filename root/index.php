@@ -13,6 +13,9 @@
         case "portfolio":
             $contents = "../views/portfolio.php";
             break;
+        case "services":
+            $contents = "../views/services.php";
+            break;
         default:
             $contents =  "../views/home.php";
             break;       
@@ -29,7 +32,7 @@
     <meta name="description" content="Klein Designs offers professional web design, graphic design, and web development in the Kitchener, Waterloo, Guelph & Cambridge area.">
     <meta name="Author" content="Klein Designs">
     <title>Klein Designs | Web Design and Development Kitchener Waterloo Guelph Cambridge</title>
-    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="img/logo.png" type="image/x-icon">
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="vendor/ionicons/css/ionicons.min.css" rel="stylesheet">

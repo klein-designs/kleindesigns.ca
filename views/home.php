@@ -1,12 +1,12 @@
 <!-- home -->
-<div class="section" id="home" data-stellar-background-ratio="0.5">
+<div class="section page-cover page-cover-master" data-stellar-background-ratio="0.5">
     <div class="container">
-        <div class="disply-table">
+        <div class="page-cover-table">
             <div class="table-cell" data-aos="fade-up" data-aos-delay="0">
                 <!-- <h4>Waterlo, Kitchener, Cambridge, Guelph</h4> -->
                 <h1><span class="decorative-font">Klein Designs</span>
                 <br /> 
-                <span class="home-text">Web Design & Graphic Design</span></h1> 
+                <span class="page-cover-text">Web Design & Graphic Design</span></h1> 
             </div>
         </div>
     </div>
