@@ -41,113 +41,31 @@
                     
                     <!-- portfolio_container -->
                     <div class="no-padding portfolio_container clearfix" data-aos="fade-up">
+
                         <!-- single work -->
                         <div class="col-md-4 col-sm-6  fashion logo">
-                            <a id="demo01" href="#animatedModal" class="portfolio_item"> <img src="img/portfolio/01.jpg" alt="image" class="img-responsive" />
+                            <a data-toggle="modal" data-target="#equine-companion" class="portfolio_item"> <img src="img/portfolio/equine_companion.png" alt="image" class="img-responsive" />
                                 <div class="portfolio_item_hover">
                                     <div class="portfolio-border clearfix">
-                                        <div class="item_info"> <span>Mockups in seconds</span> <em>Fashion / Logo</em> </div>
+                                        <div class="item_info"> <span>Equine Companion</span> <em>Websites</em> </div>
                                     </div>
                                 </div>
                             </a>
                         </div>
                         <!-- end single work -->
-                        
-                        <!-- single work -->
-                        <div class="col-md-4 col-sm-6 ads graphics">
-                            <a id="demo02" href="#animatedModal" class="portfolio_item"> <img src="img/portfolio/03.jpg" alt="image" class="img-responsive" />
+
+                            <!-- single work -->
+                        <div class="col-md-4 col-sm-6  fashion logo">
+                            <a id="demo02" href="#animatedModal-2" class="portfolio_item"> <img src="img/portfolio/equine_companion2.png" alt="image" class="img-responsive" />
                                 <div class="portfolio_item_hover">
                                     <div class="portfolio-border clearfix">
-                                        <div class="item_info"> <span>Floating mockups</span> <em>Ads / Graphics</em> </div>
+                                        <div class="item_info"> <span>eZemployee</span> <em>Websites</em> </div>
                                     </div>
                                 </div>
                             </a>
                         </div>
                         <!-- end single work -->
-                        
-                        <!-- single work -->
-                        <div class="col-md-4 col-sm-6 photography">
-                            <a id="demo03" href="#animatedModal" class="portfolio_item"> <img src="img/portfolio/02.jpg" alt="image" class="img-responsive" />
-                                <div class="portfolio_item_hover">
-                                    <div class="portfolio-border clearfix">
-                                        <div class="item_info"> <span>Photorealistic smartwatch</span> <em>Photography</em> </div>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <!-- end single work -->
-                        
-                        <!-- single work -->
-                        <div class="col-md-4 col-sm-6 fashion ads">
-                            <a id="demo04" href="#animatedModal" class="portfolio_item"> <img src="img/portfolio/04.jpg" alt="image" class="img-responsive" />
-                                <div class="portfolio_item_hover">
-                                    <div class="portfolio-border clearfix">
-                                        <div class="item_info"> <span>Held by hands</span> <em>Fashion / Ads</em> </div>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <!-- end single work -->
-                        
-                        <!-- single work -->
-                        <div class="col-md-4 col-sm-6 graphics ads">
-                            <a id="demo05" href="#animatedModal" class="portfolio_item"> <img src="img/portfolio/05.jpg" alt="image" class="img-responsive" />
-                                <div class="portfolio_item_hover">
-                                    <div class="portfolio-border clearfix">
-                                        <div class="item_info"> <span>Mobile devices</span> <em>Graphics / Ads</em> </div>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <!-- end single work -->
-                        
-                        <!-- single work -->
-                        <div class="col-md-4 col-sm-6 photography">
-                            <a id="demo06" href="#animatedModal" class="portfolio_item"> <img src="img/portfolio/010.jpg" alt="image" class="img-responsive" />
-                                <div class="portfolio_item_hover">
-                                    <div class="portfolio-border clearfix">
-                                        <div class="item_info"> <span>Photorealistic smartwatch</span> <em>Photography</em> </div>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <!-- end single work -->
-                        
-                        <!-- single work -->
-                        <div class="col-md-4 col-sm-6 graphics ads">
-                            <a id="demo07" href="#animatedModal" class="portfolio_item"> <img src="img/portfolio/06.jpg" alt="image" class="img-responsive" />
-                                <div class="portfolio_item_hover">
-                                    <div class="portfolio-border clearfix">
-                                        <div class="item_info"> <span>Mobile devices</span> <em>Graphics / Ads</em> </div>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <!-- end single work -->
-                        
-                        <!-- single work -->
-                        <div class="col-md-4 col-sm-6 graphics ads">
-                            <a id="demo08" href="#animatedModal" class="portfolio_item"> <img src="img/portfolio/07.jpg" alt="image" class="img-responsive" />
-                                <div class="portfolio_item_hover">
-                                    <div class="portfolio-border clearfix">
-                                        <div class="item_info"> <span>Mobile devices</span> <em>Graphics / Ads</em> </div>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <!-- end single work -->
-                        
-                        <!-- single work -->
-                        <div class="col-md-4 col-sm-6 graphics ads">
-                            <a id="demo09" href="#animatedModal" class="portfolio_item"> <img src="img/portfolio/08.jpg" alt="image" class="img-responsive" />
-                                <div class="portfolio_item_hover">
-                                    <div class="portfolio-border clearfix">
-                                        <div class="item_info"> <span>Mobile devices</span> <em>Graphics / Ads</em> </div>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <!-- end single work -->
+
                     </div>
                     <!-- end portfolio_container -->
                 </div>
@@ -160,28 +78,22 @@
 </div>
 <!-- ./projects -->
 
-<!--DEMO01-->
-<div id="animatedModal" class="popup-modal">
-    <!--THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID -->
-    <div id="btn-close-modal" class="close-animatedModal close-popup-modal"> <i class="ion-close-round"></i> </div>
-    <div class="clearfix"></div>
-    <div class="modal-content">
-        <div class="container">
-            <div class="portfolio-padding">
-                <div class="col-md-8 col-md-offset-2">
-                    <h2>Geschäfts Eines<br /> Web-Studios</h2>
-                    <div class="h-50"></div>
-                    <p>Appropriately maintain standards compliant total linkage with cutting-edge action items. Enthusiastically create seamless synergy rather than excellent value. Quickly promote premium strategic theme areas vis-a-vis.</p>
-                    <p>Appropriately maintain standards compliant total linkage with cutting-edge action items. Enthusiastically create seamless synergy rather than excellent value.</p>
-                    <br />
-                    <br /> <img src="img/portfolio/02.jpg" alt="" class="img-responsive" />
-                    <br />
-                    <br />
-                    <p>Appropriately maintain standards compliant total linkage with cutting-edge action items. Enthusiastically create seamless synergy rather than excellent value. Quickly promote premium strategic theme areas vis-a-vis.</p>
-                    <p>Appropriately maintain standards compliant total linkage with cutting-edge action items. Enthusiastically create seamless synergy rather than excellent value.</p>
-                    <br />
-                    <br /> </div>
+<!-- Modal -->
+<div id="equine-companion" class="modal fade" role="dialog">
+    <div class="modal-dialog modal-lg">
+
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Modal Header</h4>
+            </div>
+            <div class="modal-body">
+                <p>Some text in the modal.</p>
+                </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
             </div>
         </div>
+
     </div>
 </div>

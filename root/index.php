@@ -10,6 +10,9 @@
         case "home":
             $contents = "../views/home.php";
             break;
+        case "test":
+            $contents = "../views/test.php";
+            break;
         case "portfolio":
             $contents = "../views/portfolio.php";
             break;
