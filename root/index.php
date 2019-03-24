@@ -71,9 +71,9 @@
     <header class="navbar-fixed-top">
         <nav>
             <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#experience">experience</a></li>
-                <li><a href="#projects">projects</a></li>
+                <li><a href="/">Home</a></li>
+                <li><a href="/index.php?page=services">Services</a></li>
+                <li><a href="/index.php?page=portfolio">Portfolio</a></li>
                 <li><a href="#contact">contact</a></li>
             </ul>
         </nav>

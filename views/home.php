@@ -90,7 +90,7 @@
                 Get in touch with Sarah to start putting your website ideas in motion. 
             </p>
             <div class="h-50"></div>
-            <a class="btn btn-primary" href="/portfolio">Contact Sarah</a>
+            <a class="btn btn-primary" href="#contact">Contact Sarah</a>
         </div>
         <div class="col-md-6">
             <div class="image-decorative-border" data-aos="fade-up" data-aos-delay=".5"></div>

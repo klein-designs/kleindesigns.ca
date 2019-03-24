@@ -28,12 +28,12 @@
                     <div class="categories-grid wow fadeInLeft">
                         <nav class="categories">
                             <ul class="portfolio_filter">
-                                <li><a href="" class="active" data-filter="*">All</a></li>
+                                <!-- <li><a href="" class="active" data-filter="*">All</a></li>
                                 <li><a href="" data-filter=".photography">Photography</a></li>
                                 <li><a href="" data-filter=".logo">Logo</a></li>
                                 <li><a href="" data-filter=".graphics">Graphics</a></li>
                                 <li><a href="" data-filter=".ads">Advertising</a></li>
-                                <li><a href="" data-filter=".fashion">Fashion</a></li>
+                                <li><a href="" data-filter=".fashion">Fashion</a></li> -->
                             </ul>
                         </nav>
                     </div>
@@ -209,7 +209,6 @@
             </div>
             <div class="modal-body">
                 <h2>Equine <br/>Companion</h2>
-                <div class="h-50"></div>
                 <p>
                     Equine Companion is a stable management software that helps barn owners automate their office and get back to the 
                     barn. Klein Designs developed features including automated timesheets, scheduling, client and horse databases, accounting,
@@ -251,10 +250,9 @@
             </div>
             <div class="modal-body">
                 <h2>ezEmployee</h2>
-                <div class="h-50"></div>
                 <p>
                     ezEmployee is a timesheet and scheduling webapp for small and medium businesses that have part-time employees. Klein Designs created 
-                    features including automated timesheets, online scheduling, timesheet approvals, and export functionality.
+                    features including automated timesheets, online scheduling, timesheet approval, and export functionality.
 
                 </p>
                 <div class="h-50"></div>
@@ -295,9 +293,8 @@
             </div>
             <div class="modal-body">
                 <h2>Lead Finder</h2>
-                <div class="h-50"></div>
                 <p>
-                    Lead Finder is a web crawler that automates lead generation for sales teams. Klein Designs created the 
+                    Lead Finder is a web crawler that automates lead generation for sales teams. Klein Designs developed the 
                     crawler from scratch and created a simple user interface for exploring and exporting leads.
 
                 </p>
@@ -333,7 +330,6 @@
             </div>
             <div class="modal-body">
                 <h2>FreeMindful</h2>
-                <div class="h-50"></div>
                 <p>
                     FreeMindful is an online database for people to upload and listen to meditation tracks for free. Klein Designs 
                     created the beautiful user interface and media upload capabilities. 
@@ -369,7 +365,6 @@
             </div>
             <div class="modal-body">
                 <h2>Site2Site</h2>
-                <div class="h-50"></div>
                 <p>
                     Site2Site is a construction management software to automate bookkeeping in the construction industry. Klein Designs worked on the landing page,
                     blog, business cards, and marketing material for Site2Site.
@@ -409,7 +404,6 @@
             </div>
             <div class="modal-body">
                 <h2>Happy Brain Project</h2>
-                <div class="h-50"></div>
                 <p>
                     Happy Brain Project is a webapp that allows people to track their happiness, complete daily happy challenges, and find out what makes them happy.
                     Klein Designs completed this website from the ground-up. The webapp has helped people track their recovery from concussions and help with those
@@ -439,7 +433,6 @@
             </div>
             <div class="modal-body">
                 <h2>Happy Brain Project</h2>
-                <div class="h-50"></div>
                 <p>
                     Happy Brain Project is a webapp that allows people to track their happiness, complete daily happy challenges, and find out what makes them happy.
                     Klein Designs completed this website from the ground-up. The webapp has helped people track their recovery from concussions and help with those
@@ -469,7 +462,6 @@
             </div>
             <div class="modal-body">
                 <h2>Dragonscape</h2>
-                <div class="h-50"></div>
                 <p>
                     Dragonscape is an online multiplayer role playing game with dragons and warriors. Klein Designs developed the website from the ground up,
                     created a class system, leveling system, and more.
@@ -501,7 +493,6 @@
             </div>
             <div class="modal-body">
                 <h2>Equiapp</h2>
-                <div class="h-50"></div>
                 <p>
                     Equiapp is a cloud-based horse management system for horse owners and barn owners. Klein Designs developed features including 
                     document uploads, horse medical records, scheduling, and a horse and client database. We also designed the logo and marketing material 
@@ -539,10 +530,9 @@
             </div>
             <div class="modal-body">
                 <h2>MS2Discovery Research <br/>Institute</h2>
-                <div class="h-50"></div>
                 <p>
                     MS2Discovery is a group or researchers affiliated with Wilfrid Laurier University. Klein Designs worked with them to make a new logo and
-                    marketing material for their new webstie. 
+                    marketing material for their new website. 
                 </p>
                 <div class="h-50"></div>
 
@@ -568,7 +558,6 @@
             </div>
             <div class="modal-body">
                 <h2>Collective Reports</h2>
-                <div class="h-50"></div>
                 <p>
                     Collective Reports is an online dental management sotware that was designed for dentists to optimize office 
                     production. Klein Designs was contracted to improve the frontend design for the entire webapp.
@@ -597,7 +586,6 @@
             </div>
             <div class="modal-body">
                 <h2>Trimark</h2>
-                <div class="h-50"></div>
                 <p>
                     Trimark Ltd. is an online auction platform for selling designer shoes and other retail products. Klein Designs developed the platform from the ground
                     up including the auction, login and registration, user profiles, payment processing, and adding and editing products. 
@@ -629,7 +617,6 @@
             </div>
             <div class="modal-body">
                 <h2>Flatiffy</h2>
-                <div class="h-50"></div>
                 <p>
                     Flatiffy is an open source HTML, CSS, and JavaScript library for frontend developers. Built by developers, for developers. Klein Designs developed 
                     this library from scratch. We use it in some of our projects for clients. It keeps websites looking mordern, clean, and functional with optimized
