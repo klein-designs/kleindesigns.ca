@@ -52,19 +52,7 @@ h4 {
     letter-spacing: 2px;
     position: relative;
     color: #79A095;
-    margin-left: 40px;
     font-weight: 700;
-}
-
-h4:before {
-    position: absolute;
-    width: 30px;
-    left: -40px;
-    content: "";
-    display: block;
-    height: 2px;
-    background: #79A095;
-    top: 9px;
 }
 
 .decorative-font {
@@ -712,8 +700,8 @@ a.active {
 }
 
 .portfolio_item img {
-    -webkit-filter: grayscale(100%);
-    filter: grayscale(100%);
+    display: block;
+    margin: 0 auto;
 }
 
 .portfolio-padding {
@@ -726,7 +714,8 @@ a.active {
 }
 
 .modal-content {
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0);
+    border-radius: 0%;
+    box-shadow: none;
     border: none;
 }
 
@@ -749,6 +738,16 @@ a.active {
     right: 14px;
 }
 
+.modal-content .close-btn {
+    background: white;
+    float: right;
+    border: 0px;
+}
+
+.modal-body {
+    padding: 10px 60px;
+}
+
 .animatedModal-on .close-popup-modal {
     opacity: 1;
 }
@@ -759,6 +758,17 @@ a.active {
     line-height: 50px;
 }
 
+.modal-content .portfolio-img {
+    width: auto;
+    max-width: 100%;
+    margin: 40px auto;
+    display: block;
+    box-shadow: 0 2rem 1.5rem -1.5rem rgba(33,37,41,.15),0 0 1.5rem .5rem rgba(33,37,41,.05);
+}
+
+.modal-header, .modal-footer {
+    border: 0px;
+}
 
 /* contact
 ==================================================*/
